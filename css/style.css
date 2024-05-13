@@ -7,6 +7,7 @@ body {
 a {
   color: darkolivegreen;
   text-decoration: none;
+  margin: 0 15px;
 }
 @media (max-width: 576px) {
   body {
@@ -14,4 +15,12 @@ a {
     background-color: wheat;
     font-size: 14px;
   }
+}
+.intro-pic {
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.contact-email {
+  font-size: 28px;
 }
